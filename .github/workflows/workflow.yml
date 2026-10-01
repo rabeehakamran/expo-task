@@ -14,5 +14,5 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm expo export --platform web
-      - run: npm tsc --noEmit
+      - run: npx expo export --platform web
+      - run: npx tsc --noEmit
