@@ -12,7 +12,6 @@ const products = [
   { id: '3', name: 'Wireless Headphones', price: '$89.00' },
   { id: '4', name: 'Canvas Market Tote', price: '$18.00' },
 ];
-const errorValue: number = "number";
 export default function HomeScreen() {
   return (
     <ThemedView style={styles.container}>
