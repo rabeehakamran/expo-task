@@ -1,5 +1,5 @@
 import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
+import { Platform, StyleSheet, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { AnimatedIcon } from '@/components/animated-icon';
@@ -54,7 +54,7 @@ export default function HomeScreen() {
             hint={<ThemedText type="code">npm run reset-project</ThemedText>}
           />
         </ThemedView>
-
+        <ThemedText type="subtitle">Rabeeha 23I-3025</ThemedText>
         {Platform.OS === 'web' && <WebBadge />}
       </SafeAreaView>
     </ThemedView>
